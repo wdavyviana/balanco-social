@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #303030;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header img{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+section {
+
+    border-radius: 12px;
+    background-color: #ffff ;
+    margin: 30px;
+    max-width: 850px;
+    justify-content: center;
+    margin:70px auto;
+}
+#card{
+    display: grid;
+    grid-auto-flow: column;
+}
+#img img{
+    margin: 0 auto;
+    justify-items: center;
+    display: flex;
+    margin-bottom: 30px;
+}
+#form .line{
+    border: none;
+    margin: 20px 0px 20px 0px;
+    border-bottom: 1px;
+    outline: 0;
+}
+#button{
+    width: 100px;
+    background-color:#303030 ;
+    border:none;
+    color: #ffff;
+    border-radius: 10px;
+    height: 30px;
+    font-size: bold;
+}
+#redes{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+#redes img{
+    margin-right: 25px;
+}
