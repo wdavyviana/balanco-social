@@ -30,11 +30,17 @@ section {
     display: flex;
     margin-bottom: 30px;
 }
+#form{
+    padding-bottom: 10px;
+}
 #form .line{
     border: none;
     margin: 20px 0px 20px 0px;
-    border-bottom: 1px;
+    border-bottom: 2px;
     outline: 0;
+    background-color:#F5F5F5;
+    border-radius: 8px;
+    padding: 8px 20px 5px 8px;
 }
 #button{
     width: 150px;
@@ -44,7 +50,8 @@ section {
     border-radius: 10px;
     height: 30px;
     font-size: bold;
-    margin-top: 50px;
+    margin-top: 40px;
+    
 }
 #redes{
     display: flex;
