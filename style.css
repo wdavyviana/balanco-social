@@ -73,6 +73,9 @@ section {
         
     }
     section{
-        max-width: 400px;
+        max-width: 300px;
+    }
+    #banda{
+        width: 250px;
     }
 }
