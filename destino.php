@@ -23,7 +23,7 @@ $body = $body . "===================================" . "\n";
 mail($destinatario, $body, "From: $email\r\n");
 
 // redireciona para a página de obrigado
-header("https://wa.me/5555859940285");
+header("https://wa.me/5585999402858");
 
 
 ?>
