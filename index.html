@@ -1,51 +1,46 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Balaço Social</title>
-    <link rel="shortcut icon" href="img/logobalanco_icon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <div id="imagem">
-            <img width="300px" src="img/logobrancapng.png" alt="">
-            <!--Aqui chamando uma imagem de background-->
-        </div>
-    </header>
-    <div id="servicos">
-        <p><a href="#">SHOWS</a></p> <p><a href="#">CASAMENTOS</a></p> <p><a href="#">ANIVERSÁRIOS</a></p> <p><a href="#">EVENTOS SOCIAIS</a></p> <p><a href="#">EVENTOS CORPORATIVOS</a></p>
-    </div>
-    <div id="info">
-        <div>
-            <div class="texto">
-                <img width="45px" src="img/show.png" alt="">
-                <h2>Torne Seu Evento Inesquecível<br> com a Nossa Banda!</h2>
-                <p>Seja em momentos especiais como casamentos, aniversários, festas de 15 anos ou eventos corporativos, a nossa banda está pronta para transformar qualquer ocasião em uma experiência única e memorável.</p>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="logobalanco_icon.ico" type="image/x-icon">
+    <title>Balanço Social</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+        <!--LOGO-->
+        <header>
+            <img width="80px" src="logopng.png" alt="">
+        </header>
+        <!--CARD BRANCO-->
+        <div id="card">
+            <!--IMAGEM-->
+            <div id="img">
+                <img width="350px" id="banda" src="vetor-banda.png" alt="">
             </div>
+            <!--FORMULARIO-->
 
-            <div class="texto">
-                <img width="45px" src="img/musica-ao-vivo.png" alt="">
-                <h2>Diversidade Musical<br> para Todos os Gostos</h2>
-                <p>Com um repertório versátil e abrangente, somos capazes de atender aos mais diversos públicos e estilos musicais. Do pop ao rock, do samba ao eletrônico, estamos preparados para criar a atmosfera perfeita para o seu evento.</p>
-            </div>
+                <form
+                action="https://formsubmit.co/marketing@cortezibiapina.com.br"
+                method="POST"
+                class="form"
+                >
+                    <h1>Torne Seu Evento Inesquecível!</h1>
+                    <h3>Entre em contato</h3>
+                    <input type="text" name="name" id="name" placeholder="Nome" required /><br>
+                    <input type="email" name="email" id="email" placeholder="seuemail@email.com" required /><br>
+                    <input type="number" name="number" id="number" placeholder="DDD+numero" required/><br>
+                    <input type="hidden" name="_captcha" value="false"/>
+                    <input
+                        type="hidden"
+                        name="_next"
+                        value="https://wa.me/5585999402858"
+                    />
+                    <button type="submit">Enviar</button>
+                </form>
         </div>
-
-        <div>
-            <div class="texto">
-                <img width="45px" src="img/ondas-sonoras.png" alt="">
-                <h2>A Trilha Sonora dos Seus<br> Momentos Especiais</h2>
-                <p>Acreditamos que a música tem o poder de marcar momentos<br> e criar memórias duradouras. Ao contratar a nossa banda,<br> você está garantindo uma trilha sonora única e emocionante<br> para o seu evento.</p>
-            </div>
-
-            <div class="texto">
-                <img width="45px" src="img/whatsapp.png" alt="">
-                <h2>Entre em Contato Conosco</h2>
-                <p>Não deixe o seu evento passar em branco. Entre em contato conosco hoje mesmo e descubra como podemos transformar a sua celebração em um acontecimento inesquecível.</p>
-            </div>
-        </div>
-    </div>
-   
-</body>
+    </section>
+  </body>
 </html>
